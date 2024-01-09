@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana;
+    background-color: skyblue;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 14px 0;
+}
+p, h3 {
+    margin: 10px 0;
+}
+
+.image {
+    border-radius: 40px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.09);
+}
+
+.imageContainer {
+}
+
+.headerContainer, .listContainer, .footerContainer {
+    padding-left: 20px;
+}
+
+.listContainer {
+    background-color: #FFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#linkForm {
+    color: yellow;
+    text-decoration: none;
+}
+
+#linkForm:hover {
+    color: rgba(255, 255, 0, 0.553);
+}
