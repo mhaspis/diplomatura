@@ -1,12 +1,12 @@
 body {
     font-family: Verdana;
-    background-color: skyblue;
     margin: 0;
 }
 
 h1, h2 {
     margin: 14px 0;
 }
+
 p, h3 {
     margin: 10px 0;
 }
@@ -16,17 +16,25 @@ p, h3 {
     box-shadow: 0 0 20px 0 rgba(0,0,0,.09);
 }
 
-.imageContainer {
+.headerContainer {
+    background: linear-gradient(to bottom, #87e0fd 0%,#05abe0 98%);
+    padding-bottom: 6px;
+}
+
+.footerContainer {
+    background: linear-gradient(to bottom, #05abe0 29%,#05abe0 29%,#87e0fd 91%);
+    padding-top: 6px;
+}
+
+.listContainer {
+    background: radial-gradient(ellipse at center, #f1da36 0%,#fefcea 60%,#ffffff 60%);
+    background-color: #FFF;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .headerContainer, .listContainer, .footerContainer {
     padding-left: 20px;
-}
-
-.listContainer {
-    background-color: #FFF;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 #linkForm {
@@ -36,4 +44,13 @@ p, h3 {
 
 #linkForm:hover {
     color: rgba(255, 255, 0, 0.553);
+}
+
+.firstElement {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.lastElement {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
