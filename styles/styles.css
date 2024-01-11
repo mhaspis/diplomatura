@@ -19,11 +19,13 @@ p, h3 {
 .headerContainer {
     background: linear-gradient(to bottom, #87e0fd 0%,#05abe0 98%);
     padding-bottom: 6px;
+    padding-top: 10px;
 }
 
 .footerContainer {
     background: linear-gradient(to bottom, #05abe0 29%,#05abe0 29%,#87e0fd 91%);
     padding-top: 6px;
+    padding-bottom: 10px;
 }
 
 .listContainer {
@@ -48,9 +50,61 @@ p, h3 {
 
 .firstElement {
     margin-top: 0px;
-    padding-top: 10px;
 }
 .lastElement {
     margin-bottom: 0px;
-    padding-bottom: 10px;
+}
+
+/*Modulo 2 - Unidad 2*/
+
+.tituloEjercicio {
+    text-align: center;
+}
+
+.contenedorBloques {
+    border: 2px solid #000;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.contenedorBloques.ejercicio3 {
+    width: 50%;
+    height: auto;
+}
+
+.bloque1, .bloque2, .bloque3 {
+    width: 100px;
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque1 {
+    background-color: red;
+}
+
+.bloque2 {
+    background-color: blue;
+}
+
+.bloque3 {
+    background-color: green;
+}
+
+.ejercicio1 {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ejercicio2 {
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.ejercicio3 {
+    justify-content: space-between;
 }
