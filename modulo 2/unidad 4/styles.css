@@ -1,0 +1,43 @@
+.nav {
+    margin: 20px;
+    /* border: 2px solid orangered; */
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.nav-item {
+    border-right: 1px solid orangered;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+.nav-link { 
+    color: #000;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.container-fluid {
+    margin: 0 20px;
+}
+
+.container-fluid img {
+    margin: 0 10px;
+}
+
+.containerText {
+    padding: 0 10px;
+}
+
+.img-fluid:hover {
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+th,
+.imageBook {
+    text-align: center;
+}
